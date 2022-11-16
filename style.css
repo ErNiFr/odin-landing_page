@@ -1,34 +1,26 @@
-.Flexbox-container {
-    display: flex;
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%
-}
-
-.Flexbox1 {
-    justify-content: space-between;
-    align-items: center;
-    justify-items: center;
+header, footer, .box_1 {
     background-color: #1F2937;
-    padding: 30px 10%;
+    min-height: 50px;
 }
 
-.Flexbox2 {
-    
+.section {
+    border: 4px solid lime;
+    min-height: 200px;
 }
 
-.Flexbox3 {
-    
+.inner_box {
+    display: block;
+    display: flex;
+    align-items: center;
+    border: 4px solid orange;
+    padding: 5px;
+    flex-direction: row;
 }
 
-.Flexbox4 {
-    
-}
 
-.Flexbox5 {
-    
-}
-
-.Flexbox6 {
+.u {
+    justify-content: flex-end;
+    border: 4px solid lime;
+    flex-direction: row;
     
 }
