@@ -34,3 +34,100 @@
     display: flex;
     padding: 0 32px;
 }
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header-image {
+    display: flex;
+    padding-left: 32px;
+}
+
+button {
+    border-style: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    padding: 0 32px;
+    margin-bottom: 32px;
+}
+
+.info-title {
+    text-align: center;
+    margin: 64px 0;
+}
+
+.info-cards {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+.card img {
+    width: 250px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card p {
+    padding: 32px 64px;
+    text-align: justify;
+    color: #1F2937;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}       
+
+.testimonial {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    padding: 0 64px;
+}
+
+.testimonial .testimony {
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+
+.testimonial .person {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.footer {
+    text-align: center;
+    padding: 32px 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
