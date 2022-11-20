@@ -22,12 +22,6 @@
     margin-bottom: 32px;
 }
 
-.navbar_logo {
-}
-
-.navbar_links {
-}
-
 .links {
     display: flex;
     list-style: none;
@@ -56,9 +50,6 @@
 .header-image {
     display: flex;
     padding-left: 32px;
-}
-.header_btn {
-    
 }
 
 button {
@@ -149,10 +140,6 @@ button {
     padding: 64px;
     width: 50vw;
     border-radius: 10px;
-}
-
-.cta-box-text {
-
 }
 
 .cta-box-btn {
